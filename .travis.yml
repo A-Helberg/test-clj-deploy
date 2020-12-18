@@ -2,4 +2,6 @@ language: clojure
 sudo: required
 lein: lein
 dist: xenial
-script: lein uberjar
+script:
+  - lein uberjar
+  - lein release
